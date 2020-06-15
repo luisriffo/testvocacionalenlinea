@@ -46,3 +46,19 @@ footer{
 @media screen and (min-width:1024px) {
     /* reglas CSS */
 }
+.pregunta .li{
+    max-width: 500px;
+    size: 300px;
+}
+.contenedor sobre-nosotros{
+    width: 200px;
+    height: 200px;
+}
+.contenedor-integrante{
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    right: 100px;
+    left: ;
+
+}
