@@ -13,6 +13,11 @@ header{
 	background-color: aliceblue;
 	
 }
+
+.cabecera{
+    background-image: url(/img/cabecera1.jpg);
+}
+
 p {
     font-family: cursive;
     color: black;
