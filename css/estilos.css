@@ -2,6 +2,19 @@ body{
     background-color: aliceblue;
     font-family: 'Oswald', sans-serif;
 }
+<<<<<<< Updated upstream
+=======
+
+[canvas=container] {
+	
+	background-color: aliceblue;
+	
+}
+
+.cabecera{
+    background-image: url(/img/cabecera1.jpg);
+}
+>>>>>>> Stashed changes
 
 p {
     font-family: cursive;
