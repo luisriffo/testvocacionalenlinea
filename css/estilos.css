@@ -53,37 +53,26 @@ li {
 
 footer{
     font-family: 'Oswald', sans-serif;
+    background-image: url(/img/cabecera1.jpg);
 }
 
-@media screen and (max-width:640px) {
-    /* reglas CSS */
-}
-
-@media screen and (max-width:1024px) and (min-width:640px) {
-    /* reglas CSS */
-}
-@media screen and (min-width:1024px) {
-    /* reglas CSS */
-}
 .pregunta .li{
     max-width: 500px;
     size: 300px;
 }
 .contenedor-sobre-nosotros{
-    width: 1080px;
-    height: 700px;
+    max-width: 100rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
     background: rgba(0, 89, 255, 0.356);
 }
 .contenedor-integrante{
-    width: 250px;
-    height: 400px;
-    padding: 10px;
-    position: static;
-    top: 100px;
-    bottom: 0;
-    right: 0;
-    left: 300px;
-    float: left;
+    text-align: justify;
+            flex-basis: calc(25% - 1rem);
+            border: 1px solid #000000;
+            ;
+            padding: 1rem;
 }
 .textos-sobre-nosotros{
     text-align: justify;
@@ -92,3 +81,17 @@ footer{
     position: center;
 }
 
+img{
+    display:block;
+    margin:auto;
+    }
+
+    @media screen and (max-width:640px) {
+
+    }
+    @media screen and (max-width:1024px) and (min-width:640px) {
+        /* reglas CSS */
+    }
+    @media screen and (min-width:1024px) {
+        /* reglas CSS */
+    }
