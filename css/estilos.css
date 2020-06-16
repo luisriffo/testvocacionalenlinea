@@ -3,6 +3,11 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+[canvas=container] {
+	
+	background-color: aliceblue;
+	
+}
 p {
     font-family: cursive;
     color: black;
